@@ -10,6 +10,11 @@ APPS = ["mobile app",
         "marketplace",
         "planner",
         "calculator",
+        "tracker",
+        "personal assistant",
+        "autopilot",
+        "advisor",
+        "algorithm"
       ]
 AUDIENCE = ["friends", "students"]
 INTENT = ["dating",
@@ -31,7 +36,18 @@ INTENT = ["dating",
           "IOT devices",
           "the user experience",
           "saving energy",
-          "growth hacking"
+          "growth hacking",
+          "managing finances",
+          "achieving fitness goals",
+          "tracking nutrition",
+          "happiness",
+          "getting things done",
+          "selling old stuff",
+          "renting a place",
+          "investing in property",
+          "investing in shares",
+          "discovering startups",
+          "getting somewhere"
 ]
 
 
@@ -113,7 +129,7 @@ end
 #   file = File.open("content.txt", "w")
 #   content = S.split(" ").map{ |word| "\"" + word + "\"," }
 #   file.puts content
-#   file.close  
+#   file.close
 # end
 
 interactive_menu
